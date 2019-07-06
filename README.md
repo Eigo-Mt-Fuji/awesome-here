@@ -1,4 +1,34 @@
-# Aedmap
+# HEREを使ったハッカソン
+
+## Project
+
+* [here](https://developer.here.com/projects/PROD-0ba36053-3de2-4afe-883e-b3055461a865)
+
+## Image
+
+![here](https://image.maps.api.here.com/mia/1.6/mapview?app_id=jh92x85a8fUkzfkUlmVW&app_code=8VDeukbt81mOQk5Of7d-NA)
+
+## Here apis
+```
+## MAP
+
+* INTERACTIVE MAPS Display map tiles and pre-rendered images (e.g., base, satellite, aerial) while customizing the map look and feel
+* WEATHER Give insights into real-time weather forecasts, alerts, and astronomical info for any location
+* MAP FEEDBACK Offer your users the possibility to edit the HERE map or report errors using API calls or the Embedded Map Editor
+
+## SEARCH AND GEOCODING
+
+* GEOCODING Convert street addresses to geo-coordinates and vice-versa with forward geocoding, including landmarks, and reverse geocoding.
+* GEOCODING AUTOCOMPLETE PLACES Find (e.g., search for name, type, category), discover (e.g., look into address, contact info) and interact with POI information (e.g., enable user reviews, photos).
+* GEOSPATIAL DATA STORAGE & RENDERING WITH XYZ Store, manage, and edit geospatial data in XYZ Hub. Visualize data in XYZ Studio, the XYZ Maps renderer, or bring your own.
+
+## ROUTING AND NAVIGATION
+* ROUTING Provide precise instructions to a destination using various transport modes (e.g., car, truck, public transit, bicycle) and leveraging different algorithms (e.g., matrix, isoline routing)
+* TRANSIT Get access to features that go beyond simple estimated transit routing like search, next departures, and pedestrian access points.
+* INTERMODAL ROUTING Provides alternative routes that combine drive, park, ride and walk to a final destination
+* TRAFFIC Display map tiles with real-time traffic flow information overlays reflected as colored lines drawn on affected streets and roads and get access to real-time traffic flow and incident data in XML and JSON.
+```
+
 
 ## Environment
 
