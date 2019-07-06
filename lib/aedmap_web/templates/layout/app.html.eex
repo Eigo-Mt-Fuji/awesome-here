@@ -8,6 +8,17 @@
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <!-- 
+      Loading the API Code Libraries 
+      To load the modules, add the following <script> elements to the <head> of the HTML document
+    -->
+    <script src="http://js.api.here.com/v3/3.0/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://js.api.here.com/v3/3.0/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+    <!-- 
+      To ensure optimum performance on mobile devices, add the following meta-tag
+    -->
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
     <style>
        div#map{
           width: 100%;
