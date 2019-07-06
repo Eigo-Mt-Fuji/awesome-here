@@ -1,5 +1,12 @@
 <h1>Listing Iam heres</h1>
+<!-- Initialize Communication with Back-end Services -->
+<script>
+var platform = new H.service.Platform({
+  'app_id': 'jh92x85a8fUkzfkUlmVW',
+  'app_code': '8VDeukbt81mOQk5Of7d-NA'
+});
 
+</script>
 <table>
   <thead>
     <tr>
