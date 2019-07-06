@@ -1,10 +1,16 @@
 <!-- Create an HTML container element in which the map can be rendered (for example, a div) -->
 <div style="width: 100%; height: 100%" id="mapContainer">
 </div>
+
 <!-- Initialize Communication with Back-end Services -->
 <script>
 var platform = new H.service.Platform({
   'app_id': 'jh92x85a8fUkzfkUlmVW',
   'app_code': '8VDeukbt81mOQk5Of7d-NA'
 });
+</script>
+
+<script>
+  // Obtain the default map types from the platform object
+  var defaultLayers = platform.createDefaultLayers();
 </script>
