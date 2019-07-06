@@ -1,3 +1,6 @@
+<!-- Create an HTML container element in which the map can be rendered (for example, a div) -->
+<div style="width: 100%; height: 100%" id="mapContainer">
+</div>
 <!-- Initialize Communication with Back-end Services -->
 <script>
 var platform = new H.service.Platform({
