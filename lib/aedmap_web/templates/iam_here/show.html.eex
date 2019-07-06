@@ -1,0 +1,28 @@
+<h1>Show Iam here</h1>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @iam_here.name %>
+  </li>
+
+  <li>
+    <strong>Latitude:</strong>
+    <%= @iam_here.latitude %>
+  </li>
+
+  <li>
+    <strong>Longitude:</strong>
+    <%= @iam_here.longitude %>
+  </li>
+
+  <li>
+    <strong>Context:</strong>
+    <%= @iam_here.context %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.iam_here_path(@conn, :edit, @iam_here) %></span>
+<span><%= link "Back", to: Routes.iam_here_path(@conn, :index) %></span>

@@ -1,0 +1,5 @@
+<h1>New Iam here</h1>
+
+<%= render "form.html", Map.put(assigns, :action, Routes.iam_here_path(@conn, :create)) %>
+
+<span><%= link "Back", to: Routes.iam_here_path(@conn, :index) %></span>

@@ -18,6 +18,7 @@ defmodule AedmapWeb.Router do
 
     get "/", PageController, :index
     resources "/locations", LocationController
+    resources "/iam_heres", IamHereController
   end
 
   # Other scopes may use custom stacks.
