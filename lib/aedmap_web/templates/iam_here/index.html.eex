@@ -1,39 +1,7 @@
-<h1>Listing Iam heres</h1>
 <!-- Initialize Communication with Back-end Services -->
 <script>
 var platform = new H.service.Platform({
   'app_id': 'jh92x85a8fUkzfkUlmVW',
   'app_code': '8VDeukbt81mOQk5Of7d-NA'
 });
-
 </script>
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Latitude</th>
-      <th>Longitude</th>
-      <th>Context</th>
-
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-<%= for iam_here <- @iam_heres do %>
-    <tr>
-      <td><%= iam_here.name %></td>
-      <td><%= iam_here.latitude %></td>
-      <td><%= iam_here.longitude %></td>
-      <td><%= iam_here.context %></td>
-
-      <td>
-        <%= link "Show", to: Routes.iam_here_path(@conn, :show, iam_here) %>
-        <%= link "Edit", to: Routes.iam_here_path(@conn, :edit, iam_here) %>
-        <%= link "Delete", to: Routes.iam_here_path(@conn, :delete, iam_here), method: :delete, data: [confirm: "Are you sure?"] %>
-      </td>
-    </tr>
-<% end %>
-  </tbody>
-</table>
-
-<span><%= link "New Iam here", to: Routes.iam_here_path(@conn, :new) %></span>
